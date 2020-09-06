@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    
+    
+    
+    
+    
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtUsernameSignup"
+        android:layout_below="@+id/txtNameSignup"
+        android:layout_alignLeft="@+id/txtNameSignup"
+        android:layout_alignStart="@+id/txtNameSignup"
+        android:layout_marginTop="54dp"
+        android:isScrollContainer="false"
+        android:hint="Username..." />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtNameSignup"
+        android:layout_marginTop="61dp"
+        android:hint="Name..."
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtPassword1st"
+        android:hint="Password..."
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/btnSignupSignup"
+        android:onClick="gotoPanel"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+    
+    
+    
+    
+    
+    
+    
+        
+    
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCompany"
+            android:inputType="textPersonName"
+            android:hint="Company..." />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtModel"
+            android:inputType="textPersonName"
+            android:hint="Model..." />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtYear"
+            android:inputType="numberSigned"
+            android:hint="Year..." />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEngine"
+            android:inputType="numberDecimal"
+            android:hint="Engine..." />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHorsePower"
+            android:inputType="numberSigned"
+            android:hint="Horse Power..." />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCondition"
+            android:inputType="textMultiLine"
+            android:hint="Condition..." />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPhone"
+            android:inputType="phone"
+            android:hint="Phone..." />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Car"
+            android:onClick="addCar"
+            android:id="@+id/btnAddCar2"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>
